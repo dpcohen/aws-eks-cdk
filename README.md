@@ -8,7 +8,7 @@ This project is useful if you are looking to get started with an instance of Kod
 
 First up, install CDK on your machine, see [Getting started with the AWS CDK](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html) \[1\]. Note that during your AWS configure you will be using the access and secret keys we received from creating the user above. Use us-east-1 as the region.
 
-To use CDK we recommend that you [install Anaconda](https://www.anaconda.com/products/individual) \[2\]. You can then create the conda environment and use that to manage the dependencies. Make sure you have cloned this repository and go to that directory and run the following commands:
+To use CDK we recommend that you [install Anaconda](https://www.anaconda.com/products/individual) \[2\]. You can then create the conda environment and use that to manage the dependencies. Using Github, clone this repository.  Next use Anaconda. If you are using Windows, Select Anaconda Prompt from the Anaconda menu selection via your Start button. Point Go to the locally cloned  directory and run the following commands:
 
 ```bash
 conda env create -f environment.yml
@@ -26,7 +26,7 @@ You *MUST* change the iam_user in app.py (for example: iam_user = "kodexa") and 
 
 ### Additional Settings
 
-Beyond adding your IAM user to provide you access to the cluster you can also edit the app.py to change 
+Beyond adding your IAM user to provide you access to the cluster you can also edit the app.py to change
 some other settings.
 
 ```python
