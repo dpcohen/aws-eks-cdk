@@ -10,10 +10,8 @@ First up, install CDK on your machine, see [Getting started with the AWS CDK](ht
 
 To use CDK we recommend that you [install Anaconda](https://www.anaconda.com/products/individual) \[2\]. You can then create the conda environment and use that to manage the dependencies.
 
-After Anaconda is installed, do the following:
 
-Using Github, clone this repository locally.  
-Next use Anaconda. If you are using Windows, select Anaconda Prompt from the Anaconda menu selection via your Start button. Point Go to the locally cloned directory and run the following commands:
+
 
 ```bash
 conda env create -f environment.yml
