@@ -13,7 +13,7 @@ To use CDK we recommend that you [install Anaconda](https://www.anaconda.com/pro
 After Anaconda is installed, do the following:
 
 Using Github, clone this repository locally.  
-  Next use Anaconda. If you are using Windows, select Anaconda Prompt from the Anaconda menu selection via your Start button. Point Go to the locally cloned directory and run the following commands:
+Next use Anaconda. If you are using Windows, select Anaconda Prompt from the Anaconda menu selection via your Start button. Point Go to the locally cloned directory and run the following commands:
 
 ```bash
 conda env create -f environment.yml
